@@ -2,15 +2,6 @@ public class HelloApp {
 
 
 
-public static void main(String[] args) {
-
-    if (args.length > 0) {
-        String name = args[0];
-        System.out.println("Hello, " + name + "!");
-    } else { 
-        System.out.println("Hello, World!");
-    }
-
 
 public static void main(String[] args) {
 
@@ -19,7 +10,6 @@ public static void main(String[] args) {
 
     // Display greeting
     System.out.println("Hello, " + name + "!");
- feature/UC3-display-name-default
 }
 
 
